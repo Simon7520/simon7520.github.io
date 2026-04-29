@@ -1742,7 +1742,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: HanchanKT;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   scroll-behavior: smooth;
@@ -7906,3 +7906,20 @@ blockquote.pullquote.right {
     transform: rotate(360deg);
   }
 }
+/* 自定义字体 */
+@font-face {
+  font-family: 'YanShiXiaXingKai';
+  src: url('/fonts/YanShiXiaXingKai.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HanchanKT';
+  src: url('/fonts/HanchanKT.ttf');
+  font-display: swap;
+}
+
+h1#site-title, #subtitle {
+  font-family: 'YanShiXiaXingKai', sans-serif;
+}
+
