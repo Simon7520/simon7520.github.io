@@ -3,7 +3,7 @@
   <entry>
     <title>单元测试框架Jest搭配TypeScript的安装与配置</title>
     <url>/posts/7984b310/</url>
-    <content><![CDATA[<p>为项目安装并配置Jest单元测试环境</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>为项目安装并配置Jest单元测试环境</p>
 <h1 id="分步指南"><a href="#分步指南" class="headerlink" title="分步指南"></a>分步指南</h1><p>传送门：<a href="https://jestjs.io/docs/getting-started">Jest - 快速入门</a></p>
 <h2 id="1-安装jest："><a href="#1-安装jest：" class="headerlink" title="1. 安装jest："></a>1. 安装jest：</h2><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">npm i jest ts-jest @types/jest -D<br></code></pre></td></tr></table></figure>
 <h2 id="2-初始化："><a href="#2-初始化：" class="headerlink" title="2. 初始化："></a>2. 初始化：</h2><p>npx jest —init<br>按照图中所示选择<br><img src="9bb199f2aa35579c5f27a52af34849a5.png" alt="jest --init"></p>
